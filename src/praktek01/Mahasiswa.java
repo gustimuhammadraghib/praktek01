@@ -10,5 +10,13 @@ package praktek01;
  * @author GMR
  */
 public class Mahasiswa {
+    String nama;
+    String NPM;
+    double IPK;
     
+    void cetakInfo(){
+        System.out.println("Nama :" +nama);
+        System.out.println("NEM  :" +NPM);
+        System.out.println("IPK  :" +IPK);
+    }
 }
